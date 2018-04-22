@@ -1,0 +1,99 @@
+/*
+    Name: LuftStyle;
+    Author: Luft Soluciones Integrales
+    Author URL: https://www.luftLab.cl
+*/
+
+/* Documento CSS */
+
+/*Clases Generales
+------------------------------------------*/
+.fulls{
+	height:100vh; /*FullScreen*/
+}
+
+.btn-arriba{
+	opacity: 0.5;
+	margin-top:1080;
+}
+
+.headers{
+	margin-top:1080px;
+}
+
+.main-nav-outer{
+	padding:0px;
+	border-bottom:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+.main-nav{
+	text-align:center;
+	margin:10px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.main-nav li a{
+	display:inline-block;
+	color:#222222;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 32px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{ 
+	text-decoration:none;
+	color: #7cc576;
+}
+
+.small-logo{ 
+	padding:0 32px;
+}
+
+.main-section{
+	padding:90px 0 110px;
+}
+
+
+
+/*Home
+------------------------------------------*/
+
+
+/*Historia
+------------------------------------------*/
+
+
+/*Servicios
+------------------------------------------*/
+
+
+/*Nosotros
+------------------------------------------*/
+
+
+/*Clientes
+------------------------------------------*/
+
+
+/*Contacto
+------------------------------------------*/
+
+
+/*footer
+------------------------------------------*/
+.footer{
+  		background-color: black;
+  		color: white;
+  		padding: 15px;
+  	}
