@@ -37,14 +37,14 @@
 
 <header  id="header">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  <!-- Indicadores -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
+  <!-- Contenido del slide -->
   <div class="carousel-inner fulls">
     <div class="item active">
       <img src="vendor/image/1.jpg" alt="foto1"> <!-- imagenes de 1.920 X 1.080 px -->
@@ -59,7 +59,7 @@
     </div>
   </div>
 
-  <!-- Left and right controls -->
+  <!-- Controlador izquierda derecha -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">Previous</span>
@@ -94,15 +94,13 @@
 
 
 <section class="container-fluid">
+
+<!--Boton "Arriba" -->
+	<div class="btn-arriba">
 	
-
-
- 
-
-	<div class="row navbar-fixed-bottom">
-		<div class="col-lg-10"></div>
-		<button id="up"  name="up"  class="boton-top btn  btn-arriba btn-primary btn-lg col-lg-1 glyphicon glyphicon-circle-arrow-up">Arriba</button> <!-- boton de ir arriba -->
-	</div>
+		<button id="up"  name="up"  class="boton-top btn btn-primary btn-block btn-lg col-lg-3 glyphicon glyphicon-circle-arrow-up" >Arriba</button> 
+	
+	</div> <!--Fin Boton Arriba -->
 
 
 	<section class="breadcrumb" id="historia"> <h2 class="fulls text-center">Historia</h2> <!-- Historia de la Empresa -->
@@ -125,7 +123,37 @@
 	</section> <!--Fin Clientes-->
 
 
-	<section class="breadcrumb" id="contacto"><h2 class="fulls text-center">Contactanos</h2> <!--formulario Contacto -->
+	<section class="breadcrumb" id="contacto"><h2 class="text-center">Contactanos</h2> <!--formulario Contacto -->
+
+		<div class="container">
+			<form action="#" method="POST">
+				<div class="form-group">
+					<label for="name">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="Asunto">Asunto:</label>
+					<input type="text" id="asunto" name="asunto" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="telefono">Telefono: (opcional)</label>
+					<input type="text" id="telefono" name="telefono" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="mensaje">Mensaje:</label>
+					<textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+				</div>
+				<div>
+				<button type="input" class="btn btn-success">Enviar</button>
+				</div>
+			
+			</form>
+		</div>
+	   
 
 	</section><!--Fin formulario contacto-->
 
