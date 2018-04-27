@@ -6,8 +6,12 @@
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	
+	<link href="vendor/fonts/webfonts/fontawesome-all.css" rel="stylesheet" >
+
       <link rel="stylesheet" type="text/css" href="vendor/css/luftStyle.css">
       <link rel="stylesheet" href="vendor/css/bootstrap.css"/>         <!-- css bootstraps -->
+      <link rel="stylesheet" href="vendor/css/bootstrap-theme.css"/>
       <link rel="stylesheet" href="vendor/css/modern-business.css"/>
       <link rel="stylesheet" href="vendor/js/jqueryui/jquery-ui.css"/>
 
@@ -123,37 +127,63 @@
 	</section> <!--Fin Clientes-->
 
 
-	<section class="breadcrumb" id="contacto"><h2 class="text-center">Contactanos</h2> <!--formulario Contacto -->
+	<section class="fulls container" id="contacto"><h2 class="text-center">Contactános</h2> <!--formulario Contacto -->
 
-		<div class="container">
-			<form action="#" method="POST">
-				<div class="form-group">
-					<label for="name">Nombre:</label>
-					<input type="text" id="nombre" name="nombre" class="form-control">
-				</div>
-				<div class="form-group">
-					<label for="Asunto">Asunto:</label>
-					<input type="text" id="asunto" name="asunto" class="form-control">
-				</div>
-				<div class="form-group">
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" class="form-control">
-				</div>
-				<div class="form-group">
-					<label for="telefono">Telefono: (opcional)</label>
-					<input type="text" id="telefono" name="telefono" class="form-control">
-				</div>
-				<div class="form-group">
-					<label for="mensaje">Mensaje:</label>
-					<textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
-				</div>
-				<div>
-				<button type="input" class="btn btn-success">Enviar</button>
-				</div>
-			
-			</form>
-		</div>
-	   
+				<div class="col-lg-5">
+					<h3 class="text-center">RRSS</h3>
+					<!--div class="contact-info-box address clearfix">
+						<h3><i class="fas fa-map-marker"></i>Dirección:</h3>
+						<span>Avenida Nueva Providencia 1881 of 520<br>Providencia, Chile.</span>
+					</div-->
+					<div class="contact-info-box phone clearfix">
+						<h3><i class="fas fa-phone"></i>Teléfono:</h3>
+						<span>+56 9 876543</span>
+					</div>
+				
+					<div class="contact-info-box email clearfix">
+						<h3><i class="fas fa-envelope-square"></i>Cotizaciones:</h3>
+						<span>info@luftlab.cl</span>
+					</div>
+					<!--<div class="contact-info-box hours clearfix">
+						<h3><i class="fa-clock-o"></i>Hours:</h3>
+						<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+					</div>-->
+					<ul class="social-link">
+						<li class="twitter"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+						<li class="facebook"><a href="https://www.facebook.com/Luft-155636168440934"><i class="fab fa-facebook"></i></a></li>
+						<li class="pinterest"><a href="https://www.linkedin.com/company/16224303/"><i class="fab fa-linkedin"></i></a></li>
+						<li class="gplus"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<!--<li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
+					</ul>
+				</div>		
+		
+				<div class="col-sm-offset-5">
+			    	<form  class="form-control-static form-area" action="vendor/controlador/correo.php" method="POST">
+			    		<h3 class="text-center"></h3>
+			    	<div class="form-group">
+			    		<input type="text" id="nombre" required name="nombre" placeholder="Nombre" class="form-control" title="Ingrese su nombre"> 
+			    	</div>
+			    	<div class="form-group">
+			    		<input type="text" id="apellidos" required name="apellidos" placeholder="Apellidos" class="form-control" title="Ingrese apellidos">
+			    	</div>
+			    	<div class="form-group">
+			    		<input type="text" id="asunto" required name="asunto" placeholder="Asunto" class="form-control" title="Motivo contacto">
+			    	</div>
+			    	<div class="form-group">
+			    	   		<input type="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required name="email" placeholder="Email" class="form-control" title="Debe ser formato ejempo@ejemplo.cl">
+			    	</div>
+			    	<div class="form-group">
+			    		<input type="tel" id="telefono" pattern="^[9]\d{8}$" required name="telefono" class="form-control bfh-phone" placeholder="Teléfono" title="Telefono debe comenzar con 9 y tener 9 digitos">
+			    	</div>
+			    	<div class="form-group">
+			    		<textarea class="form-control" rows="6" id="mensaje" required name="mensaje" placeholder="Escriba su mensaje" title="Escriba su mensaje"></textarea>
+			    	</div>
+			    	<div>
+			    	<button type="submit" class="btn btn-primary">Enviar</button>
+			    	</div>
+			    
+			   		 </form>
+		   		</div>
 
 	</section><!--Fin formulario contacto-->
 
@@ -163,7 +193,8 @@
 	
 </footer> <!--Fin Footer-->
 
-     <script type="text/javascript">
+
+ <script type="text/javascript">
     $('.boton-top').fadeOut(); 
 
      	 $(window).scroll(function(){
@@ -182,8 +213,158 @@
 
 
 });
+ </script>
 
-  </script>
+ <!--<?php
+
+ if (isset($_POST['nombre'])) {
+ 	$nombre=$_POST['nombre'];
+ }
+if (isset($_POST['asunto'])) {
+ 	$asunto=$_POST['asunto'];
+ }
+if (isset($_POST['email'])) {
+ 	$email=$_POST['email'];
+ }
+if (isset($_POST['mensaje'])) {
+ 	$mensaje=$_POST['mensaje'];
+ }
+if (isset($_POST['telefono'])) {
+ 	$telefono=$_POST['telefono'];
+ }else{
+ 	$telefono='';
+ }
+ 
+
+ ?> -->
+
+ <!--script type="text/javascript">
+ 	$(document).ready(function() {
+ 		$('#contacto').bootstrapValidator({
+ 			feedbackIcons: {
+            		valid: 'glyphicon glyphicon-ok',
+            		invalid: 'glyphicon glyphicon-remove',
+            		validating: 'glyphicon glyphicon-refresh'
+            	},
+            	fields: {
+            		nombre: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Debe ingresar el nombre completo'
+                             	}
+                            }
+              			},
+              			asunto: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Indique un asunto'
+                             	}
+                            }
+              			},
+              			email: {
+              				validators: {
+              					emailAddress: {
+                        message: 'Email debe tener formato ejemplo'
+                    			},
+                      			notEmpty: {
+                          			message: 'Debe ingresar el formato ejemplo@ejemplo.cl'
+                             	}
+                            }
+              			},
+
+              			mensaje: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Escriba su mensaje'
+                             	}
+                            }
+              			},
+              			telefono: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'ingrese su telefono'
+                             	}
+                            }
+              			},
+              			apellidos: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'ingrese su telefono'
+                             	}
+                            }
+              			},
+
+            	}
+
+ 		});
+ 	});
+ </script-->
+
+ <!--script type="text/javascript"> 
+  $(function () {
+    $("#enviar").click(function () { 
+    	$('#contacto').bootstrapValidator({
+ 			feedbackIcons: {
+            		valid: 'glyphicon glyphicon-ok',
+            		invalid: 'glyphicon glyphicon-remove',
+            		validating: 'glyphicon glyphicon-refresh'
+            	},
+            	fields: {
+            		nombre: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Debe ingresar el nombre completo'
+                             	}
+                            }
+              			},
+              			asunto: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Indique un asunto'
+                             	}
+                            }
+              			},
+              			email: {
+              				validators: {
+              					emailAddress: {
+                        message: 'Email debe tener formato ejemplo'
+                    			},
+                      			notEmpty: {
+                          			message: 'Debe ingresar el formato ejemplo@ejemplo.cl'
+                             	}
+                            }
+              			},
+
+              			mensaje: {
+              				validators: {
+                      			notEmpty: {
+                          			message: 'Escriba su mensaje'
+                             	}
+                            }
+              			},
+
+            	}
+
+ 		});
+
+ 		 /*document.getElementById("enviar").disabled = true;
+ 		 nom=document.getElementById("nombre");
+ 		 email=document.getElementById("email");
+ 		 asunto=document.getElementById("asunto");
+ 		 msj=document.getElementById("mensaje");
+ 		 tel=document.getElementById("telefono");*/
+
+
+
+    	
+
+   
+    
+    $("#enviar").finish();
+   })
+  })
+
+  </script-->
 
  
 
