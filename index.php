@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Luft Soluciones Integrales</title>
+	<title>Luft Lab</title>
 	<link rel="icon" href="favicon.png" type="image/png"> <!-- definir favicon (logo) -->
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,7 +84,7 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#historia">Nuestra Historia</a></li>
+				<li><a href="#historia">Nosotros</a></li>
 				<li><a href="#servicios">Nuestro Servicios</a></li>
 				<li><a href="#nosotros">Quienes Somos</a></li>
 				<li><a href="#clientes">Nuestros Clientes</a></li>
@@ -107,91 +107,107 @@
 	</div> <!--Fin Boton Arriba -->
 
 
-	<section class="breadcrumb" id="historia"> <h2 class="fulls text-center">Historia</h2> <!-- Historia de la Empresa -->
+	<section class="breadcrumb fulls" id="historia"> <h2 class="text-center">Nosotros</h2> <!-- Historia de la Empresa -->
+
+		<div class="container">
+  			<h2>Luft Lab</h2><br>
+  				<h4>Laboratorio de soluciones par emprendedores</h4> 
+ 			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+
+ 				 <!--button class="btn btn-default btn-lg">Get in Touch</button>
+
+
+ 
+  			<h2>Our Values</h2>
+  			<h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4> 
+  			<p><strong>VISION:</strong> Our vision Lorem ipsum..</p-->
+		</div>
 
 	</section> <!-- Fin Historia -->
 
 
-	<section  id="servicios"><h2 class="fulls text-center">Nuestros Servicios</h2> <!-- Servicios -->
+	<section  id="servicios" class="main-section fulls"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
+		<div class="container">
+			<h2>Servicios Integrales pensados en tus necesidades</h2>
+			
+		</div>
 
 	</section> <!--Fin Servicios-->
 
 
-	<section class="breadcrumb" id="nosotros"><h2 class="fulls text-center">Quienes Somos</h2> <!--Quienes Somos -->
+	<section class="breadcrumb container fulls" id="nosotros"><h2 class=" text-center">Quienes Somos</h2> <!--Quienes Somos -->
 
 	</section> <!--Fin Quienes Somos-->
 
 
-	<section  id="clientes"><h2 class="fulls text-center">Nuestros Clientes</h2> <!--Clientes-->
+	<section  id="clientes" class="fulls"><h2 class="fulls text-center">Nuestros Clientes</h2> <!--Clientes-->
 
 	</section> <!--Fin Clientes-->
 
 
-	<section class="fulls container" id="contacto"><h2 class="text-center">Contactános</h2> <!--formulario Contacto -->
+	<section class="fulls container breadcrumb" id="contacto"><h2 class="text-center">Contactános</h2> <!--Contacto -->
 
-				<div class="col-lg-5">
-					<h3 class="text-center">RRSS</h3>
-					<!--div class="contact-info-box address clearfix">
-						<h3><i class="fas fa-map-marker"></i>Dirección:</h3>
-						<span>Avenida Nueva Providencia 1881 of 520<br>Providencia, Chile.</span>
-					</div-->
-					<div class="contact-info-box phone clearfix">
-						<h3><i class="fas fa-phone"></i>Teléfono:</h3>
-						<span>+56 9 876543</span>
-					</div>
-				
-					<div class="contact-info-box email clearfix">
-						<h3><i class="fas fa-envelope-square"></i>Cotizaciones:</h3>
-						<span>info@luftlab.cl</span>
-					</div>
-					<!--<div class="contact-info-box hours clearfix">
-						<h3><i class="fa-clock-o"></i>Hours:</h3>
-						<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
-					</div>-->
-					<ul class="social-link">
+		
+  			<div class="row">
+    			 <div class="col-sm-5" style="font-size: 20px">
+      				<p><h3>Medios De contacto</h3></p> <br>
+      				<p><span class="fas fa-map-marker"></span> Santiago, Chile</p>
+      				<p><span class="fa fa-phone" ></span> +56 9 8765432</p>
+     			 	<p><span class="glyphicon glyphicon-envelope"></span> info@luftlab.com</p> 
+    
+			   		 <ul class="social-link">
 						<li class="twitter"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
 						<li class="facebook"><a href="https://www.facebook.com/Luft-155636168440934"><i class="fab fa-facebook"></i></a></li>
 						<li class="pinterest"><a href="https://www.linkedin.com/company/16224303/"><i class="fab fa-linkedin"></i></a></li>
 						<li class="gplus"><a href="#"><i class="fab fa-instagram"></i></a></li>
-						<!--<li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
+						<!--li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li-->
 					</ul>
-				</div>		
-		
-				<div class="col-sm-offset-5">
-			    	<form  class="form-control-static form-area" action="vendor/controlador/correo.php" method="POST">
-			    		<h3 class="text-center"></h3>
-			    	<div class="form-group">
-			    		<input type="text" id="nombre" required name="nombre" placeholder="Nombre" class="form-control" title="Ingrese su nombre"> 
-			    	</div>
-			    	<div class="form-group">
-			    		<input type="text" id="apellidos" required name="apellidos" placeholder="Apellidos" class="form-control" title="Ingrese apellidos">
-			    	</div>
-			    	<div class="form-group">
-			    		<input type="text" id="asunto" required name="asunto" placeholder="Asunto" class="form-control" title="Motivo contacto">
-			    	</div>
-			    	<div class="form-group">
-			    	   		<input type="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required name="email" placeholder="Email" class="form-control" title="Debe ser formato ejempo@ejemplo.cl">
-			    	</div>
-			    	<div class="form-group">
-			    		<input type="tel" id="telefono" pattern="^[9]\d{8}$" required name="telefono" class="form-control bfh-phone" placeholder="Teléfono" title="Telefono debe comenzar con 9 y tener 9 digitos">
-			    	</div>
-			    	<div class="form-group">
-			    		<textarea class="form-control" rows="6" id="mensaje" required name="mensaje" placeholder="Escriba su mensaje" title="Escriba su mensaje"></textarea>
-			    	</div>
-			    	<div>
-			    	<button type="submit" class="btn btn-primary">Enviar</button>
-			    	</div>
-			    
-			   		 </form>
-		   		</div>
+				 </div>
 
-	</section><!--Fin formulario contacto-->
+    				<div class="col-sm-7">
+     	 			<div class="row">
+      				<form  class="form-control-static form-area" action="vendor/controlador/correo.php" method="POST">
+			    			<h3 class="text-center"></h3>
+			    				<div class="form-group">
+			    				<input type="text" id="nombre" required name="nombre" placeholder="Nombre" class="form-control" title="Ingrese su nombre"> 
+			    				</div>
+			    				<div class="form-group">
+			    					<input type="text" id="apellidos" required name="apellidos" placeholder="Apellidos" class="form-control" 	title="Ingrese apellidos">
+			    				</div>
+			    				<div class="form-group">
+			    					<input type="text" id="asunto" required name="asunto" placeholder="Asunto" class="form-control" title="Motivo contacto">
+			    				</div>
+			    				<div class="form-group">
+			    		   		<input type="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required 			name="email" placeholder="Email" class="form-control" title="Debe ser formato ejempo@ejemplo.cl">
+			    				</div>
+			    				<div class="form-group">
+			    					<input type="tel" id="telefono" pattern="^[9]\d{8}$" required name="telefono" class="form-control bfh-phone" placeholder="		Teléfono" title="Telefono debe comenzar con 9 y tener 9 digitos">
+			    				</div>
+			    			<div class="form-group">
+			    			<textarea class="form-control" rows="6" id="mensaje" required name="mensaje" placeholder="Escriba su 	mensaje" title="Escriba su mensaje"></textarea>
+			    			</div>
+			    			<div>
+			    			<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+			    			</div>
+			    	</form>
+			   </div> 
+     
+  	 </div>
+		</div>
 
-</section>
+	</section><!--Contacto-->
 
-	<footer class="footer" id="footer"> <h5 class="text-center">LUFT Soluciones Integrales &copy </h5> <!-- footer-->
+
+	<footer class="footer" id="footer"> <h5 class="text-center">LUFT Lab &copy </h5> <!-- footer-->
 	
 </footer> <!--Fin Footer-->
+
+</section>
 
 
  <script type="text/javascript">
