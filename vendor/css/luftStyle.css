@@ -19,6 +19,7 @@
 	right: 0px;
 	height: all;
 	width:all;
+	z-index:1000;
 
 }
  
@@ -179,5 +180,5 @@ input:required {
 .footer{
   		background-color: black;
   		color: white;
-  		padding: 15px;
+  		padding: 8px;
   	}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Luft Lab</title>
+	<title>Servicios WEB | Luft Lab</title>
 	<link rel="icon" href="favicon.png" type="image/png"> <!-- definir favicon (logo) -->
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nuestros servicios y soluciones estan pensadas para que puedas mejorar el rendimmiento de tu Empresa, Marqueting, contabilidad, diseño, redes sociales, ventas en línea. Contactanos">
 
 	
 	<link href="vendor/fonts/webfonts/fontawesome-all.css" rel="stylesheet" >
@@ -76,7 +77,7 @@
 
 
 
-	<nav class="main-nav-outer navbar-inverse" id="nav"> <!-- barra de navegación -->
+	<nav class="nav main-nav-outer navbar-inverse" id="nav"> <!-- barra de navegación -->
 
 		<div class="container">
 			<div class="navbar-header">
@@ -90,7 +91,8 @@
 				<li><a href="#clientes">Nuestros Clientes</a></li>
 				<li><a href="#contacto">Contactanos</a></li>
 			</ul>
-		</div>
+     
+    </div>
 	</nav> <!-- Fin Barra de navegación -->
 
 </header>
@@ -131,9 +133,50 @@
 	</section> <!-- Fin Historia -->
 
 
-	<section  id="servicios" class="main-section fulls"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
+	<section  id="servicios" class="container fulls"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
 		<div class="container">
-			<h2>Servicios Integrales pensados en tus necesidades</h2>
+			<div class="row text-center">
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>Diseño</h3>              
+            </div>
+            <div class="panel-body">
+              
+            </div>
+            <div class="panel-footer">
+              
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h3>Web</h3></div>
+            <div class="panel-body"></div>
+            <div class="panel-footer"></div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h3>Redes Sociales</h3></div>
+            <div class="panel-body">           
+            </div>
+            <div class="panel-footer"></div>            
+          </div>          
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h3>Contables</h3></div>
+            <div class="panel-body"></div>
+            <div class="panel-footer"></div>
+          </div>
+          
+        </div>
+        
+      </div>
 			
 		</div>
 
@@ -141,20 +184,24 @@
 
 
 	<section class="breadcrumb container fulls" id="nosotros"><h2 class=" text-center">Quienes Somos</h2> <!--Quienes Somos -->
+    <div class="container">
+      <div class="card"></div>
+      
+    </div>
 
 	</section> <!--Fin Quienes Somos-->
 
 
-	<section  id="clientes" class="fulls"><h2 class="fulls text-center">Nuestros Clientes</h2> <!--Clientes-->
+	<section  id="clientes" class="fulls"><h2 class="text-center">Nuestros Clientes</h2> <!--Clientes-->
 
 	</section> <!--Fin Clientes-->
 
 
-	<section class="fulls container breadcrumb" id="contacto"><h2 class="text-center">Contactános</h2> <!--Contacto -->
+	<section class="container breadcrumb" style="" id="contacto"><h2 class="text-center">Contactános</h2> <!--Contacto -->
 
 		
   			<div class="row">
-    			 <div class="col-sm-5" style="font-size: 20px">
+    			 <div class="col-sm-5" style="font-size: 25px;margin-left:40px;">
       				<p><h3>Medios De contacto</h3></p> <br>
       				<p><span class="fas fa-map-marker"></span> Santiago, Chile</p>
       				<p><span class="fa fa-phone" ></span> +56 9 8765432</p>
@@ -169,9 +216,9 @@
 					</ul>
 				 </div>
 
-    				<div class="col-sm-7">
+    				<div class="col-xs-6">
      	 			<div class="row">
-      				<form  class="form-control-static form-area" action="vendor/controlador/correo.php" method="POST">
+      				<form  class="form-control-static" action="vendor/controlador/correo.php" method="POST">
 			    			<h3 class="text-center"></h3>
 			    				<div class="form-group">
 			    				<input type="text" id="nombre" required name="nombre" placeholder="Nombre" class="form-control" title="Ingrese su nombre"> 
@@ -186,10 +233,10 @@
 			    		   		<input type="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required 			name="email" placeholder="Email" class="form-control" title="Debe ser formato ejempo@ejemplo.cl">
 			    				</div>
 			    				<div class="form-group">
-			    					<input type="tel" id="telefono" pattern="^[9]\d{8}$" required name="telefono" class="form-control bfh-phone" placeholder="		Teléfono" title="Telefono debe comenzar con 9 y tener 9 digitos">
+			    					<input type="tel" id="telefono" pattern="^[9]\d{8}$" required name="telefono" class="form-control bfh-phone" placeholder="Teléfono" title="Telefono debe comenzar con 9 y tener 9 digitos">
 			    				</div>
 			    			<div class="form-group">
-			    			<textarea class="form-control" rows="6" id="mensaje" required name="mensaje" placeholder="Escriba su 	mensaje" title="Escriba su mensaje"></textarea>
+			    			<textarea class="form-control" rows="6" id="mensaje" required name="mensaje" placeholder="Escriba su mensaje" title="Escriba su mensaje"></textarea>
 			    			</div>
 			    			<div>
 			    			<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
@@ -203,7 +250,7 @@
 	</section><!--Contacto-->
 
 
-	<footer class="footer" id="footer"> <h5 class="text-center">LUFT Lab &copy </h5> <!-- footer-->
+	<footer class="footer" id="footer"> <h5 class="text-center">LUFT Lab 2018 &copy </h5> <!-- footer-->
 	
 </footer> <!--Fin Footer-->
 
@@ -230,6 +277,18 @@
 
 });
  </script>
+
+ <script type="text/javascript">
+    $(document).ready(function(e) {
+      $('#nav').scrollToFixed();
+      $('.nav').click(function() {
+        $('.nav').slideToggle();
+        return false
+
+      });
+
+    });
+  </script>
 
  <!--<?php
 
