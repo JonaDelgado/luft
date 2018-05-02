@@ -15,12 +15,14 @@
       <link rel="stylesheet" href="vendor/css/bootstrap-theme.css"/>
       <link rel="stylesheet" href="vendor/css/modern-business.css"/>
       <link rel="stylesheet" href="vendor/js/jqueryui/jquery-ui.css"/>
+      <link rel="stylesheet" type="text/css" href="vendor/css/teamstyle.css">
 
       <script type="text/javascript" src="vendor/js/jquery-3.3.1.js"></script>
 
       <script type="text/javascript" src="vendor/js/jqueryui/jquery-ui.js"></script>
 
       <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="vendor/js/teamjs.js"></script>
       <script type="text/javascript" src="vendor/validator/js/bootstrapValidator.js"></script>
 
 
@@ -85,10 +87,10 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#historia">Nosotros</a></li>
-				<li><a href="#servicios">Nuestro Servicios</a></li>
 				<li><a href="#nosotros">Quienes Somos</a></li>
-				<li><a href="#clientes">Nuestros Clientes</a></li>
+				<li><a href="#servicios">Nuestro Servicios</a></li>
+				<li><a href="#equipo">Equipo</a></li>
+				<li><a href="#clientes">Clientes</a></li>
 				<li><a href="#contacto">Contactanos</a></li>
 			</ul>
      
@@ -109,7 +111,7 @@
 	</div> <!--Fin Boton Arriba -->
 
 
-	<section class="breadcrumb fulls" id="historia"> <h2 class="text-center">Nosotros</h2> <!-- Historia de la Empresa -->
+	<section class="breadcrumb container fulls" id="nosotros"> <h2 class="text-center">Quienes Somos</h2> <!-- Nosotros-->
 
 		<div class="container">
   			<h2>Luft Lab</h2><br>
@@ -130,49 +132,76 @@
   			<p><strong>VISION:</strong> Our vision Lorem ipsum..</p-->
 		</div>
 
-	</section> <!-- Fin Historia -->
+	</section> <!-- Fin Nosotros -->
 
 
-	<section  id="servicios" class="container fulls"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
+	<section  id="servicios" class="container"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
 		<div class="container">
 			<div class="row text-center">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3>Diseño</h3>              
-            </div>
+            <div class="panel-heading"><h3><i class="fa fa-pencil-alt" ></i> Diseño</h3></div>
             <div class="panel-body">
-              
-            </div>
-            <div class="panel-footer">
-              
-            </div>
-            
+              <h3><small>Contamos con profesionales, dedicados a imaginar, crear y concluir.La mejor opción del mercado para tu emprendimiento o perfeccionar e impulsar tu idea, somos especialistas en creatividad.</small></h3>
+            </div>         
+            <!--div class="panel-footer"></div-->
           </div>
           
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="panel panel-primary">
-            <div class="panel-heading"><h3>Web</h3></div>
-            <div class="panel-body"></div>
-            <div class="panel-footer"></div>
+            <div class="panel-heading"><h3><i class="fas fa-globe" ></i> Web</h3></div>
+            <div class="panel-body">
+              <h3><small>Creamos paginas profesionales según tu necesidad, analizamos y estudiamos el mercado para entregar opciones de competencia con las grandes empresas vigentes. Somos la solución y el complemento que necesitas ajustándonos a tus necesidades e ideas.</small> </h3>
+            </div>
+            <!--div class="panel-footer"></div-->
           </div>
           
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="panel panel-primary">
-            <div class="panel-heading"><h3>Redes Sociales</h3></div>
-            <div class="panel-body">           
+            <div class="panel-heading"><h3><i class="far fa-address-card" ></i> Redes Sociales</h3></div>
+            <div class="panel-body">
+              <h3><small>Las redes sociales sin el mejor amigo de las paginas, por lo mismo tenemos Comunnity managers que harán tu Empresa viral, asegurando que la administración de tus cuentas sean efectivas con Facebook, Twitter, Instagram y YouTube.</small></h3>
             </div>
-            <div class="panel-footer"></div>            
+            <!--div class="panel-footer"></div-->            
           </div>          
         </div>
-        <div class="col-md-3">
+
+          
+        </div>
+
+        <div class="row text-center">
+        <div class="col-md-4">
           <div class="panel panel-primary">
-            <div class="panel-heading"><h3>Contables</h3></div>
-            <div class="panel-body"></div>
-            <div class="panel-footer"></div>
+            <div class="panel-heading"><h3><i class="fas fa-code" ></i> Desarrollo</h3></div>
+            <div class="panel-body">
+              <h3><small>Automatizamos tus procesos productivos, creando aplicaciones a medida,  para mejorar la productividad, minimizar los procesos manuales, mejorar tu toma de decisiones y minimizar los errores en producción. Sabemos lo importante que es para una empresa el medir y controlar los procesos.</small></h3>
+            </div>         
+            <!--div class="panel-footer"></div-->            
           </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h3><i class="far fa-chart-bar" ></i> Contable</h3></div>
+            <div class="panel-body">
+              <h3><small>Luft es tu socio en el emprendimiento, es por ello que integramos a tu equipo un contador para analizar y tomar decisiones  según el área financiera. Queremos ayudarte y nunca dejar caer tu idea principal.</small></h3>
+            </div>
+            <!--div class="panel-footer"></div-->
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h3><i class="fas fa-cogs"></i> Servicio Técnico y Redes</h3></div>
+            <div class="panel-body">
+            <h3><small>Nuestros técnicos están preparados para lo que necesites, instalación de equipos, redes y configuración de estas. Recuerda que toda buena idea tiene los mejores soportes ante eventos y mejoras.</small></h3>        
+            </div>
+            <!--div class="panel-footer"></div-->            
+          </div>          
+        </div>
+
           
         </div>
         
@@ -183,13 +212,282 @@
 	</section> <!--Fin Servicios-->
 
 
-	<section class="breadcrumb container fulls" id="nosotros"><h2 class=" text-center">Quienes Somos</h2> <!--Quienes Somos -->
+	<section class="breadcrumb container fulls" id="equipo"><h2 class=" text-center">Equipo</h2> <!--Equipo -->
     <div class="container">
-      <div class="card"></div>
-      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="http://www.hdimageson.com/wp-content/uploads/2016/05/beach-images-tumblr-300x188.jpg"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="vendor/image/jp.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Juan Pablo Rojas</h3>
+                                <p class="profession">Programador</p>
+
+                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Descripción</h4>
+                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                <div class="stats-container">
+                                    <div class="stats">
+                                        <h4>235</h4>
+                                        <p>
+                                            Followers
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>114</h4>
+                                        <p>
+                                            Following
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>35</h4>
+                                        <p>
+                                            Projects
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+        </div> <!-- end card-container -->
+        </div>
+        <div class="col-lg-3">
+          <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="http://www.hdimageson.com/wp-content/uploads/2016/05/beach-images-tumblr-300x188.jpg"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="vendor/image/jona.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Jonathan Delgado</h3>
+                                <p class="profession">Programador</p>
+
+                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Job Description</h4>
+                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                <div class="stats-container">
+                                    <div class="stats">
+                                        <h4>235</h4>
+                                        <p>
+                                            Followers
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>114</h4>
+                                        <p>
+                                            Following
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>35</h4>
+                                        <p>
+                                            Projects
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+        </div> <!-- end card-container -->
+        </div>
+        <div class="col-lg-3">
+          <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="http://www.hdimageson.com/wp-content/uploads/2016/05/beach-images-tumblr-300x188.jpg"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="vendor/image/Diego.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Diego Hernandez</h3>
+                                <p class="profession">Diseñador Grafico</p>
+
+                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Job Description</h4>
+                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                <div class="stats-container">
+                                    <div class="stats">
+                                        <h4>235</h4>
+                                        <p>
+                                            Followers
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>114</h4>
+                                        <p>
+                                            Following
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>35</h4>
+                                        <p>
+                                            Projects
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+        </div> <!-- end card-container -->
+        </div>
+        <div class="col-lg-3">
+          <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="http://www.hdimageson.com/wp-content/uploads/2016/05/beach-images-tumblr-300x188.jpg"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="vendor/image/Xizpi.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Jonathan Llobet</h3>
+                                <p class="profession">Contador</p>
+
+                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Job Description</h4>
+                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                <div class="stats-container">
+                                    <div class="stats">
+                                        <h4>235</h4>
+                                        <p>
+                                            Followers
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>114</h4>
+                                        <p>
+                                            Following
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>35</h4>
+                                        <p>
+                                            Projects
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+        </div> <!-- end card-container -->
+        </div>
+        
+      </div>
     </div>
 
-	</section> <!--Fin Quienes Somos-->
+	</section> <!--Fin Equipo-->
 
 
 	<section  id="clientes" class="fulls"><h2 class="text-center">Nuestros Clientes</h2> <!--Clientes-->
