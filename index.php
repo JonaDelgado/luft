@@ -79,18 +79,18 @@
 
 
 
-	<nav class="nav main-nav-outer navbar-inverse" id="nav"> <!-- barra de navegación -->
+	<nav class="nav main-nav-outer navbar-default" id="nav"> <!-- barra de navegación -->
 
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Luft Lab</a>
 			</div>
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" role="tablist">
 				<li class="active"><a href="#">Home</a></li>
 				<li><a href="#nosotros">Quienes Somos</a></li>
 				<li><a href="#servicios">Nuestro Servicios</a></li>
 				<li><a href="#equipo">Equipo</a></li>
-				<li><a href="#clientes">Clientes</a></li>
+				<!--li><a href="#clientes">Clientes</a></li!>
 				<li><a href="#contacto">Contactanos</a></li>
 			</ul>
      
@@ -138,7 +138,7 @@
 	<section  id="servicios" class="container"><h2 class="text-center">Nuestros Servicios</h2> <!-- Servicios -->
 		<div class="container">
 			<div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-4 zoom" >
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><i class="fa fa-pencil-alt" ></i> Diseño</h3></div>
             <div class="panel-body">
@@ -148,7 +148,7 @@
           </div>
           
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 zoom ">
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><i class="fas fa-globe" ></i> Web</h3></div>
             <div class="panel-body">
@@ -158,7 +158,7 @@
           </div>
           
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><i class="far fa-address-card" ></i> Redes Sociales</h3></div>
             <div class="panel-body">
@@ -172,7 +172,7 @@
         </div>
 
         <div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><i class="fas fa-code" ></i> Desarrollo</h3></div>
             <div class="panel-body">
@@ -182,7 +182,7 @@
           </div>
           
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><i class="far fa-chart-bar" ></i> Contable</h3></div>
             <div class="panel-body">
@@ -192,8 +192,8 @@
           </div>
           
         </div>
-        <div class="col-md-4">
-          <div class="panel panel-primary">
+        <div class="col-md-4 zoom">
+          <div class="panel panel-primary" >
             <div class="panel-heading"><h3><i class="fas fa-cogs"></i> Servicio Técnico y Redes</h3></div>
             <div class="panel-body">
             <h3><small>Nuestros técnicos están preparados para lo que necesites, instalación de equipos, redes y configuración de estas. Recuerda que toda buena idea tiene los mejores soportes ante eventos y mejoras.</small></h3>        
@@ -212,7 +212,7 @@
 	</section> <!--Fin Servicios-->
 
 
-	<section class="breadcrumb container fulls" id="equipo"><h2 class=" text-center">Equipo</h2> <!--Equipo -->
+	<section class="breadcrumb container" id="equipo"><h2 class=" text-center">Equipo</h2> <!--Equipo -->
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -230,23 +230,23 @@
                                 <h3 class="name">Juan Pablo Rojas</h3>
                                 <p class="profession">Programador</p>
 
-                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                                <p class="text-center">"Hola soy Juan Pablo y pondre aqui una frase"</p>
                             </div>
-                            <div class="footer">
+                            <!--div class="footer">
                                 <div class="rating">
                                     <i class="fa fa-mail-forward"></i> Auto Rotation
                                 </div>
-                            </div>
+                            </div-->
                         </div>
                     </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h5 class="motto">"Luft Lab"</h5>
                         </div>
                         <div class="content">
                             <div class="main">
                                 <h4 class="text-center">Descripción</h4>
-                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                                <p class="text-center">Programadción, analisis de competencias, gestión de proyecto,bases de datos</p>
 
                                 <div class="stats-container">
                                     <div class="stats">
@@ -271,13 +271,13 @@
 
                             </div>
                         </div>
-                        <div class="footer">
+                        <!--div class="footer">
                             <div class="social-links text-center">
                                 <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                             </div>
-                        </div>
+                        </div-->
                     </div> <!-- end back panel -->
                 </div> <!-- end card -->
         </div> <!-- end card-container -->
@@ -297,23 +297,23 @@
                                 <h3 class="name">Jonathan Delgado</h3>
                                 <p class="profession">Programador</p>
 
-                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                                <p class="text-center">"Una página profesional y un buen uso de las redes sociales, generar el impulso que tu Empresa, marca o producto necesitan."</p>
                             </div>
-                            <div class="footer">
+                            <!--div class="footer">
                                 <div class="rating">
                                     <i class="fa fa-mail-forward"></i> Auto Rotation
                                 </div>
-                            </div>
+                            </div-->
                         </div>
                     </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h5 class="motto">"Luft Lab"</h5>
                         </div>
                         <div class="content">
                             <div class="main">
-                                <h4 class="text-center">Job Description</h4>
-                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                                <h4 class="text-center">Descripción</h4>
+                                <p class="text-center">Programación Web, redes sociales, Bases de Datos, analisis de KPI</p>
 
                                 <div class="stats-container">
                                     <div class="stats">
@@ -338,13 +338,13 @@
 
                             </div>
                         </div>
-                        <div class="footer">
+                        <!--div class="footer">
                             <div class="social-links text-center">
                                 <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                             </div>
-                        </div>
+                        </div-->
                     </div> <!-- end back panel -->
                 </div> <!-- end card -->
         </div> <!-- end card-container -->
@@ -364,54 +364,39 @@
                                 <h3 class="name">Diego Hernandez</h3>
                                 <p class="profession">Diseñador Grafico</p>
 
-                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                                <p class="text-center">"Soy Diego y pondré una frase n esta parte "</p>
                             </div>
-                            <div class="footer">
+                            <!--div class="footer">
                                 <div class="rating">
                                     <i class="fa fa-mail-forward"></i> Auto Rotation
                                 </div>
-                            </div>
+                            </div-->
                         </div>
                     </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h5 class="motto">"Luft Lab"</h5>
                         </div>
                         <div class="content">
                             <div class="main">
-                                <h4 class="text-center">Job Description</h4>
-                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                                <h4 class="text-center">Descripción</h4>
+                                <p class="text-center">Diseño web, logotipos, etiquetas, imagen corporativa, marketing.</p>
 
                                 <div class="stats-container">
-                                    <div class="stats">
-                                        <h4>235</h4>
-                                        <p>
-                                            Followers
-                                        </p>
-                                    </div>
-                                    <div class="stats">
-                                        <h4>114</h4>
-                                        <p>
-                                            Following
-                                        </p>
-                                    </div>
-                                    <div class="stats">
-                                        <h4>35</h4>
-                                        <p>
-                                            Projects
-                                        </p>
-                                    </div>
+                                    <h4>Cotiza con nosotros</h4>
+                                    <button type="button" class="btn btn-success btn-block">button</button>
+
                                 </div>
 
                             </div>
                         </div>
-                        <div class="footer">
+                        <!--div class="footer">
                             <div class="social-links text-center">
                                 <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                             </div>
-                        </div>
+                        </div-->
                     </div> <!-- end back panel -->
                 </div> <!-- end card -->
         </div> <!-- end card-container -->
@@ -431,23 +416,19 @@
                                 <h3 class="name">Jonathan Llobet</h3>
                                 <p class="profession">Contador</p>
 
-                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                                <p class="text-center">"Soy Xizpi y pondré una frase en esta parte"</p>
                             </div>
-                            <div class="footer">
-                                <div class="rating">
-                                    <i class="fa fa-mail-forward"></i> Auto Rotation
-                                </div>
-                            </div>
+                            
                         </div>
                     </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h5 class="motto">"Luft Lab"</h5>
                         </div>
                         <div class="content">
                             <div class="main">
-                                <h4 class="text-center">Job Description</h4>
-                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                                <h4 class="text-center">Descripción</h4>
+                                <p class="text-center">Contabilidad, analisis de mercado, optimización de recursos, tesoreria</p>
 
                                 <div class="stats-container">
                                     <div class="stats">
@@ -472,13 +453,13 @@
 
                             </div>
                         </div>
-                        <div class="footer">
+                        <!--div class="footer">
                             <div class="social-links text-center">
                                 <a href="http://deepak646.blogspot.in/" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
                                 <a href="http://deepak646.blogspot.in/" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                             </div>
-                        </div>
+                        </div-->
                     </div> <!-- end back panel -->
                 </div> <!-- end card -->
         </div> <!-- end card-container -->
@@ -490,7 +471,7 @@
 	</section> <!--Fin Equipo-->
 
 
-	<section  id="clientes" class="fulls"><h2 class="text-center">Nuestros Clientes</h2> <!--Clientes-->
+	<!--section  id="clientes" class="fulls"><h2 class="text-center">Nuestros Clientes</h2> <!--Clientes>
 
 	</section> <!--Fin Clientes-->
 
@@ -514,9 +495,9 @@
 					</ul>
 				 </div>
 
-    				<div class="col-xs-6">
+    				<div class="col-lg-6">
      	 			<div class="row">
-      				<form  class="form-control-static" action="vendor/controlador/correo.php" method="POST">
+      				<form  class="form-control-static container-fluid" action="vendor/controlador/correo.php" method="POST" style="margin-left: 60px;">
 			    			<h3 class="text-center"></h3>
 			    				<div class="form-group">
 			    				<input type="text" id="nombre" required name="nombre" placeholder="Nombre" class="form-control" title="Ingrese su nombre"> 
@@ -586,6 +567,9 @@
       });
 
     });
+
+
+   
   </script>
 
  <!--<?php

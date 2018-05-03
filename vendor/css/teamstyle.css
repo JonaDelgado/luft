@@ -118,7 +118,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     padding: 10px 20px 20px;
 }
 .card .content .main {
-    min-height: 160px;
+    min-height: 140px;
 }
 .card .back .content .main {
     height: 215px;

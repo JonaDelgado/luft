@@ -75,6 +75,7 @@ input:required {
 
 .main-nav li a:hover{ 
 	text-decoration:none;
+	background-color:black;
 	color: #7cc576;
 }
 
@@ -99,6 +100,20 @@ input:required {
 /*Servicios
 ------------------------------------------*/
 
+.zoom {
+    padding: 10px;
+    transition: transform .5s;
+    width: 200px;
+    height: 360px;
+    margin: 0 auto;
+    z-index:3;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
 
 /*Nosotros
 ------------------------------------------*/
